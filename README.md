@@ -1,6 +1,6 @@
 # dsh-btw
 
-> **DeepSeek Harness Side-Assistant Dock & Drawer**  
+> **DeepSeek Harness Side-Assistant Dock & Drawer**
 > Ask quick side questions without interrupting or polluting the active agent loop.
 
 ---
@@ -24,19 +24,19 @@
 
 Install dsh-btw into your DeepSeek Harness environment:
 
-`ash
+```bash
 pnpm add dsh-btw
-`
+```
 
 Enable the plugin in your cordis.yml (or via cordis.patch.yml):
 
-`yaml
+```yaml
 # cordis.yml
 plugins:
   dsh-btw:
     # Optional: specify a dedicated model, or omit to auto-inherit active session model
     # model: deepseek:deepseek-chat
-`
+```
 
 ---
 
@@ -44,10 +44,11 @@ plugins:
 
 ### 1. In the Web Chat Interface
 Type /btw followed by your question:
-`	ext
+
+```text
 /btw What is the port number of PostgreSQL?
 /btw Sinong kalaban ni Superman na malakas din?
-`
+```
 
 - **Floating Banner:** The question immediately displays above the composer with Thinking... status. Once resolved, the rich Markdown answer smoothly appears.
 - **Pagination:** Navigate previous questions in the session using < and >.
