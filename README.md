@@ -1,6 +1,6 @@
 # dsh-btw
 
-> **DeepSeek Harness Side-Assistant Dock & Drawer**
+> **DeepSeek Harness Side-Assistant Dock**
 > Ask quick side questions without interrupting or polluting the active agent loop.
 
 ---
@@ -11,8 +11,6 @@
   Type /btw <question> in the chat bar. The input clears instantly (0ms) and executes in the background without disturbing the main agent run.
 - **Docked Floating Banner Above Composer:**
   Appears right above the message input with real-time pulsating Thinking... animation, Markdown rendering, pagination (< 1/5 >), and collapse/expand toggle.
-- **Right Drawer By The Way Feed:**
-  Full searchable history feed with rich Markdown, **Show more / Show less** toggling for long answers, one-click **Copy answer**, and **Save to Notes**.
 - **Pure ctx.llm & Zero-Config Auto-Inheritance:**
   Automatically uses the active session model from ctx.llm or falls back across configured providers in settings.yaml.
 - **Isolated JSON Storage:**
@@ -42,7 +40,7 @@ plugins:
 
 ## Usage
 
-### 1. In the Web Chat Interface
+### In the Web Chat Interface
 Type /btw followed by your question:
 
 ```text
@@ -54,12 +52,9 @@ Type /btw followed by your question:
 - **Pagination:** Navigate previous questions in the session using < and >.
 - **Action Controls:**
   - **Copy:** Copies the answer to clipboard.
-  - **Save as Note:** Promotes the answer directly to the session notes drawer.
-  - **Delete:** Removes the question from history.
-  - **Dismiss:** Closes the floating banner.
-
-### 2. In the Right Drawer (By The Way Tab)
-Click the **By The Way** tab in the details panel to view all session side-questions, search through history, and ask new side questions directly.
+  - **Delete:** Removes the question from session history.
+  - **Collapse / Expand:** Toggles the answer view to keep your workspace tidy.
+  - **Dismiss [X]:** Closes the floating banner.
 
 ---
 
