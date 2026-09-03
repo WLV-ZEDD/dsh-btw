@@ -1,5 +1,5 @@
 {
-  "name": "dsh-btw",
+  "name": "@wlv-zedd/dsh-btw",
   "version": "1.0.0",
   "description": "DeepSeek Harness Side-Assistant Dock & Drawer (/btw command)",
   "type": "module",

@@ -23,7 +23,7 @@
 Install dsh-btw into your DeepSeek Harness environment:
 
 ```bash
-pnpm add dsh-btw
+pnpm add @wlv-zedd/dsh-btw
 ```
 
 Enable the plugin in your cordis.yml (or via cordis.patch.yml):
@@ -31,7 +31,7 @@ Enable the plugin in your cordis.yml (or via cordis.patch.yml):
 ```yaml
 # cordis.yml
 plugins:
-  dsh-btw:
+  @wlv-zedd/dsh-btw:
     # Optional: specify a dedicated model, or omit to auto-inherit active session model
     # model: deepseek:deepseek-chat
 ```
