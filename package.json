@@ -1,0 +1,59 @@
+{
+  "name": "dsh-btw",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness Side-Assistant Dock & Drawer (/btw command)",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "immediately": true
+    }
+  },
+  "scripts": {
+    "check": "node --check lib/index.js && node --check lib/client.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WLV-ZEDD/dsh-btw.git"
+  },
+  "author": "WLV-ZEDD",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "btw",
+    "side-assistant"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "homepage": "https://github.com/WLV-ZEDD/dsh-btw#readme",
+  "bugs": {
+    "url": "https://github.com/WLV-ZEDD/dsh-btw/issues"
+  }
+}

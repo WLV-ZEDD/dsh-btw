@@ -1,0 +1,4 @@
+# dsh-btw bundle patch: inserts the plugin into a profile's layer stack.
+- insert:
+    - id: dsh-btw
+      name: 'dsh-btw'
