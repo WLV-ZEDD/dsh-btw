@@ -3,6 +3,8 @@
 > **DeepSeek Harness Side-Assistant Dock**
 > Ask quick side questions without interrupting or polluting the active agent loop.
 
+![dsh-btw Interactive Demo](assets/demo.gif)
+
 ---
 
 ## Features
@@ -45,11 +47,14 @@ Type /btw followed by your question:
 
 ```text
 /btw What is the port number of PostgreSQL?
-/btw Sinong kalaban ni Superman na malakas din?
+/btw What is the difference between TCP and UDP?
 ```
 
 - **Floating Banner:** The question immediately displays above the composer with Thinking... status. Once resolved, the rich Markdown answer smoothly appears.
-- **Pagination:** Navigate previous questions in the session using < and >.
+- **Pagination (`< 1/5 >`):** Navigate previous questions in the session using `<` and `>`.
+
+![dsh-btw Pagination Navigation](assets/navigation-demo.gif)
+
 - **Action Controls:**
   - **Copy:** Copies the answer to clipboard.
   - **Delete:** Removes the question from session history.
