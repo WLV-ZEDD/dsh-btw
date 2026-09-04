@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw-plugin.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw-plugin)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/WLV-ZEDD/dsh-btw/blob/main/LICENSE)
+[![sponsor](https://img.shields.io/badge/Sponsor-PayPal-00457C.svg?logo=paypal&style=flat)](https://paypal.me/wlvzedd)
 
 > **DeepSeek Harness Side-Assistant Dock**
 > Ask quick side questions without interrupting or polluting the active agent loop.
