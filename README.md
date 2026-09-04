@@ -66,7 +66,7 @@ Type /btw followed by your question:
 ## Support & Community Perks
 
 - 💖 **Sponsor directly:** If you find this plugin helpful, consider sending a small tip via [PayPal](https://paypal.me/wlvzedd).
-- 🎁 **Get Free AI Credits:** Sign up on [AgentRouter](https://agentrouter.org/register?aff=bIJf) using your GitHub account to receive up to **$200 in free API credits** for your DeepSeek and LLM workflows.
+- 🎁 **Get Free AI Credits:** Sign up on AgentRouter using [this link](https://agentrouter.org/register?aff=bIJf) with your GitHub account to receive up to **$200 in free API credits** for your DeepSeek and LLM workflows.
 
 ---
 
