@@ -1,6 +1,6 @@
 {
   "name": "@wlv-zedd/dsh-btw-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DeepSeek Harness Side-Assistant Dock (/btw command)",
   "type": "module",
   "main": "lib/index.js",
@@ -34,6 +34,10 @@
   },
   "scripts": {
     "check": "node --check lib/index.js && node --check lib/client.js"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/schemastery": "*"
   },
   "license": "MIT",
   "repository": {
