@@ -51,10 +51,7 @@ Type /btw followed by your question:
 ```
 
 - **Floating Banner:** The question immediately displays above the composer with Thinking... status. Once resolved, the rich Markdown answer smoothly appears.
-- **Pagination (`< 1/5 >`):** Navigate previous questions in the session using `<` and `>`.
-
-![dsh-btw Pagination Navigation](assets/navigation-demo.gif)
-
+- **Pagination (`< 1/5 >`):** Seamlessly cycle through previous side questions in the active session using `<` and `>`.
 - **Action Controls:**
   - **Copy:** Copies the answer to clipboard.
   - **Delete:** Removes the question from session history.
