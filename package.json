@@ -1,6 +1,6 @@
 {
-  "name": "@wlv-zedd/dsh-btw",
-  "version": "1.0.3",
+  "name": "@wlv-zedd/dsh-btw-plugin",
+  "version": "1.0.0",
   "description": "DeepSeek Harness Side-Assistant Dock (/btw command)",
   "type": "module",
   "main": "lib/index.js",

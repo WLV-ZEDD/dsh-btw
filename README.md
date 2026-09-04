@@ -1,6 +1,6 @@
-# dsh-btw
+# dsh-btw-plugin
 
-[![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw)
+[![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw-plugin.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw-plugin)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/WLV-ZEDD/dsh-btw/blob/main/LICENSE)
 
 > **DeepSeek Harness Side-Assistant Dock**
@@ -25,10 +25,10 @@
 
 ## Installation
 
-Install dsh-btw into your DeepSeek Harness environment:
+Install dsh-btw-plugin into your DeepSeek Harness environment:
 
 ```bash
-pnpm add @wlv-zedd/dsh-btw
+pnpm add @wlv-zedd/dsh-btw-plugin
 ```
 
 Enable the plugin in your cordis.yml (or via cordis.patch.yml):
@@ -36,7 +36,7 @@ Enable the plugin in your cordis.yml (or via cordis.patch.yml):
 ```yaml
 # cordis.yml
 plugins:
-  @wlv-zedd/dsh-btw:
+  @wlv-zedd/dsh-btw-plugin:
     # Optional: specify a dedicated model, or omit to auto-inherit active session model
     # model: deepseek:deepseek-chat
 ```
