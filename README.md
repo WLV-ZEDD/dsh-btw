@@ -2,7 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw-plugin.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw-plugin)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/WLV-ZEDD/dsh-btw/blob/main/LICENSE)
-[![sponsor](https://img.shields.io/badge/Sponsor-PayPal-00457C.svg?logo=paypal&style=flat)](https://paypal.me/wlvzedd)
 
 > **DeepSeek Harness Side-Assistant Dock**
 > Ask quick side questions without interrupting or polluting the active agent loop.
@@ -61,6 +60,13 @@ Type /btw followed by your question:
   - **Delete:** Removes the question from session history.
   - **Collapse / Expand:** Toggles the answer view to keep your workspace tidy.
   - **Dismiss [X]:** Closes the floating banner.
+
+---
+
+## Support & Community Perks
+
+- 💖 **Sponsor directly:** If you find this plugin helpful, consider sending a small tip via [PayPal](https://paypal.me/wlvzedd).
+- 🎁 **Get Free AI Credits:** Sign up on [AgentRouter](https://agentrouter.org/register?aff=bIJf) using your GitHub account to receive up to **$200 in free API credits** for your DeepSeek and LLM workflows.
 
 ---
 
