@@ -1,5 +1,8 @@
 # dsh-btw
 
+[![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 > **DeepSeek Harness Side-Assistant Dock**
 > Ask quick side questions without interrupting or polluting the active agent loop.
 
