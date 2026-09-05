@@ -1,10 +1,15 @@
 # dsh-btw-plugin
 
 [![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw-plugin.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw-plugin)
+[![dsh-market](https://img.shields.io/badge/dsh--market-available-c0392b?style=flat)](https://dshmarket.com/)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/WLV-ZEDD/dsh-btw/blob/main/LICENSE)
 
 > **DeepSeek Harness Side-Assistant Dock**
 > Ask quick side questions without interrupting or polluting the active agent loop.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/promo-dshmarket-official.png" alt="dsh-btw on DSH Market" width="100%">
+</p>
 
 ![dsh-btw Interactive Demo](https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/demo.gif)
 
@@ -25,13 +30,21 @@
 
 ## Installation
 
+### Option 1: Via DSH Plugin Market (Recommended)
+Install directly in the DSH Web UI via **Settings → Plugin Market** (search for `dsh-btw`), or run:
+
+```bash
+pnpm dsh plugin add @wlv-zedd/dsh-btw-plugin
+```
+
+### Option 2: Manual npm & Cordis Config
 Install dsh-btw-plugin into your DeepSeek Harness environment:
 
 ```bash
 pnpm add @wlv-zedd/dsh-btw-plugin
 ```
 
-Enable the plugin in your cordis.yml (or via cordis.patch.yml):
+Enable the plugin in your `cordis.yml` (or via `cordis.patch.yml`):
 
 ```yaml
 # cordis.yml
