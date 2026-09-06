@@ -21,8 +21,8 @@
   Type /btw <question> in the chat bar. The input clears instantly (0ms) and executes in the background without disturbing the main agent run.
 - **Docked Floating Banner Above Composer:**
   Appears right above the message input with real-time pulsating Thinking... animation, Markdown rendering, pagination (< 1/5 >), and collapse/expand toggle.
-- **Pure ctx.llm & Zero-Config Auto-Inheritance:**
-  Automatically uses the active session model from ctx.llm or falls back across configured providers in settings.yaml.
+- **Active Session & Loop Context Awareness:**
+  Inherits the active session model dynamically and extracts recent turn history (`session.deriveMessages()`, tool results, active workspace) so `/btw` knows exactly what you and the main agent are working on without interrupting execution.
 - **Isolated JSON Storage:**
   Persists session Q&A history in ~/.dsh/storages/btw-history.json without modifying or polluting other plugins.
 
