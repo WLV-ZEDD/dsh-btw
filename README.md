@@ -18,13 +18,28 @@
 ## Features
 
 - **Instant Non-Blocking /btw Command:**
-  Type /btw <question> in the chat bar. The input clears instantly (0ms) and executes in the background without disturbing the main agent run.
+  Type `/btw <question>` in the chat bar. The input clears instantly (0ms) and executes in the background without disturbing the main agent run.
+
 - **Docked Floating Banner Above Composer:**
-  Appears right above the message input with real-time pulsating Thinking... animation, Markdown rendering, pagination (< 1/5 >), and collapse/expand toggle.
+  Appears right above the message input with a live Quantum Equalizer animation, Markdown rendering, pagination (`< 1/5 >`), and collapse/expand toggle.
+
+- **Quantum Equalizer Visualizer:**
+  Five animated pill bars pulse in theme blue while your answer is being generated. During an automatic retry, all bars and the status badge switch to amber so you can always see the current state at a glance.
+
+- **Smart Auto-Retry (5 Steps):**
+  On transient model errors the plugin retries up to 5 times with fast bursts (1 s → 1.5 s → 2 s → 2.5 s → 3 s, ~10 s total). The status badge shows `Retrying (X/5)...` in amber so you are never left wondering.
+
 - **Active Session & Loop Context Awareness:**
-  Inherits the active session model dynamically and extracts recent turn history (`session.deriveMessages()`, tool results, active workspace) so `/btw` knows exactly what you and the main agent are working on without interrupting execution.
+  Inherits the active session model dynamically and extracts recent turn history (`session.deriveMessages()`, active workspace) so `/btw` knows exactly what you and the main agent are working on without interrupting execution.
+
+- **Accuracy-First System Prompt:**
+  Six concise positive instructions guide the model to preserve exact nouns, synthesize session history faithfully, and answer directly — no defensive over-constraints that cause hallucinations.
+
+- **Rich Markdown Rendering:**
+  Bold, italic, inline code, numbered lists (rendered as real `1.` `2.` numbers in theme blue), and bullet points — all without markdown tables cluttering the compact card.
+
 - **Isolated JSON Storage:**
-  Persists session Q&A history in ~/.dsh/storages/btw-history.json without modifying or polluting other plugins.
+  Persists session Q&A history in `~/.dsh/storages/btw-history.json` without modifying or polluting other plugins.
 
 ---
 
@@ -59,15 +74,15 @@ plugins:
 ## Usage
 
 ### In the Web Chat Interface
-Type /btw followed by your question:
+Type `/btw` followed by your question:
 
 ```text
 /btw What is the port number of PostgreSQL?
 /btw What is the difference between TCP and UDP?
 ```
 
-- **Floating Banner:** The question immediately displays above the composer with Thinking... status. Once resolved, the rich Markdown answer smoothly appears.
-- **Pagination (`< 1/5 >`):** Seamlessly cycle through previous side questions in the active session using `<` and `>`.
+- **Floating Banner:** The question immediately displays above the composer with the Quantum Equalizer pulsing. Once resolved, the rich Markdown answer appears.
+- **Pagination (`< 1/5 >`):** Cycle through previous side questions in the active session using `<` and `>`.
 - **Action Controls:**
   - **Copy:** Copies the answer to clipboard.
   - **Delete:** Removes the question from session history.
@@ -78,8 +93,9 @@ Type /btw followed by your question:
 
 ## Support & Community Perks
 
-- 💖 **Sponsor directly:** If you find this plugin helpful, consider sending a small tip via [PayPal](https://paypal.me/wlvzedd).
-- 🎁 **Get Free AI Credits:** Sign up on AgentRouter using [this link](https://agentrouter.org/register?aff=bIJf) with your GitHub account to receive up to **$200 in free API credits** for your DeepSeek and LLM workflows.
+[![Sponsor via PayPal](https://img.shields.io/badge/Sponsor-PayPal-0070ba?style=flat&logo=paypal&logoColor=white)](https://paypal.me/wlvzedd) If you find this plugin helpful, consider sending a small tip.
+
+[![Free AI Credits on AgentRouter](https://img.shields.io/badge/Free%20AI%20Credits-%24200-ff6b35?style=flat&logoColor=white)](https://agentrouter.org/register?aff=bIJf) Sign up on AgentRouter with your GitHub account to receive up to **$200 in free API credits** for your DeepSeek and LLM workflows.
 
 ---
 
