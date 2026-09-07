@@ -97,7 +97,9 @@ Type `/btw` followed by your question:
 
 [![Sponsor via PayPal](https://img.shields.io/badge/Sponsor-PayPal-0070ba?style=flat&logo=paypal&logoColor=white)](https://paypal.me/wlvzedd) If you find this plugin helpful, consider sending a small tip.
 
-[![Free AI Credits on AgentRouter](https://img.shields.io/badge/Free%20AI%20Credits-%24200-ff6b35?style=flat&logoColor=white)](https://agentrouter.org/register?aff=bIJf) Sign up on AgentRouter with your GitHub account to receive up to **$200 in free API credits** for your DeepSeek and LLM workflows.
+[![Free AI Credits on AgentRouter](https://img.shields.io/badge/Free%20AI%20Credits-%24200-ff6b35?style=flat&logoColor=white)](https://agentrouter.org/register?aff=bIJf) Sign up on AgentRouter with GitHub to get up to **$200 in free API credits** for LLM workflows.
+
+[![Free AI Credits on Vyce AI](https://img.shields.io/badge/Free%20AI%20Credits-%2450-7c3aed?style=flat&logoColor=white)](https://vyceai.com/signup?ref=VYCE_BL6YAG) Sign up on Vyce AI to get **$50 in free API credits** for high-speed LLM workflows.
 
 ---
 

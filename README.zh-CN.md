@@ -97,7 +97,9 @@ plugins:
 
 [![Sponsor via PayPal](https://img.shields.io/badge/Sponsor-PayPal-0070ba?style=flat&logo=paypal&logoColor=white)](https://paypal.me/wlvzedd) 如果你觉得本插件对你有帮助，欢迎赞助支持。
 
-[![Free AI Credits on AgentRouter](https://img.shields.io/badge/Free%20AI%20Credits-%24200-ff6b35?style=flat&logoColor=white)](https://agentrouter.org/register?aff=bIJf) 使用 GitHub 账号注册 AgentRouter，即可领取最高 **$200 免费 API 额度**，用于你的 DeepSeek 与 LLM 工作流。
+[![Free AI Credits on AgentRouter](https://img.shields.io/badge/Free%20AI%20Credits-%24200-ff6b35?style=flat&logoColor=white)](https://agentrouter.org/register?aff=bIJf) 使用 GitHub 注册 AgentRouter 即可领取最高 **$200 免费额度**，用于 LLM 工作流。
+
+[![Free AI Credits on Vyce AI](https://img.shields.io/badge/Free%20AI%20Credits-%2450-7c3aed?style=flat&logoColor=white)](https://vyceai.com/signup?ref=VYCE_BL6YAG) 注册 Vyce AI 即可领取 **$50 免费额度**，用于高速 LLM 工作流。
 
 ---
 
