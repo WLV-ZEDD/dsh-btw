@@ -1,5 +1,7 @@
 # dsh-btw-plugin
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 [![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw-plugin.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw-plugin)
 [![dsh-market](https://img.shields.io/badge/dsh--market-available-c0392b?style=flat)](https://dshmarket.com/p/WLV-ZEDD/dsh-btw/)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/WLV-ZEDD/dsh-btw/blob/main/LICENSE)
@@ -8,10 +10,10 @@
 > Ask quick side questions without interrupting or polluting the active agent loop.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/promo-dshmarket-official.png" alt="dsh-btw on DSH Market" width="100%">
+  <img src="https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/promo-dshmarket-official.png?v=1.0.3" alt="dsh-btw on DSH Market" width="100%">
 </p>
 
-![dsh-btw Interactive Demo](https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/demo.gif)
+![dsh-btw Interactive Demo](https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/demo.gif?v=1.0.3)
 
 ---
 
