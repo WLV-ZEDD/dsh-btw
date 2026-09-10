@@ -1,6 +1,6 @@
 # dsh-btw-plugin
 
-[English](https://github.com/WLV-ZEDD/dsh-btw#readme) | [中文](https://github.com/WLV-ZEDD/dsh-btw/blob/main/docs/README.zh-CN.md)
+[English](./README.md) | [中文](./README.zh-CN.md)
 
 [![npm version](https://img.shields.io/npm/v/@wlv-zedd/dsh-btw-plugin.svg?style=flat&color=3b82f6)](https://www.npmjs.com/package/@wlv-zedd/dsh-btw-plugin)
 [![dsh-market](https://img.shields.io/badge/dsh--market-available-c0392b?style=flat)](https://dshmarket.com/p/WLV-ZEDD/dsh-btw/)

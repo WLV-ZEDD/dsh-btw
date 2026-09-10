@@ -1,4 +1,4 @@
-name: Publish to GitHub Packages
+name: Publish Package
 
 on:
   push:
@@ -7,7 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish:
+  publish-gpr:
+    name: Publish to GitHub Packages
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -23,15 +24,33 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@wlv-zedd'
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: 9
-
-      - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+      - name: Verify syntax
+        run: node --check lib/index.js && node --check lib/client.js
 
       - name: Publish to GitHub Packages
         run: npm publish --registry https://npm.pkg.github.com
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  publish-npm:
+    name: Publish to npmjs.com
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Verify syntax
+        run: node --check lib/index.js && node --check lib/client.js
+
+      - name: Publish to npmjs.com
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
