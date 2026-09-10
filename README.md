@@ -13,7 +13,9 @@
   <img src="https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/promo-dshmarket-official.png?v=1.0.3" alt="dsh-btw on DSH Market" width="100%">
 </p>
 
-![dsh-btw Interactive Demo](https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/demo.gif?v=1.0.3)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WLV-ZEDD/dsh-btw/main/assets/demo.gif?v=1.0.3" alt="dsh-btw Interactive Demo" width="100%">
+</p>
 
 ---
 
