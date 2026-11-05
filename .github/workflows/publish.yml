@@ -24,8 +24,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@wlv-zedd'
 
-      - name: Verify syntax
-        run: node --check lib/index.js && node --check lib/client.js
+      - name: Verify syntax and tests
+        run: npm run check && npm test
 
       - name: Publish to GitHub Packages
         run: npm publish --registry https://npm.pkg.github.com
@@ -47,8 +47,8 @@ jobs:
           node-version: '22'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Verify syntax
-        run: node --check lib/index.js && node --check lib/client.js
+      - name: Verify syntax and tests
+        run: npm run check && npm test
 
       - name: Publish to npmjs.com
         run: npm publish --access public
